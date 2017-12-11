@@ -3,16 +3,16 @@
 #### Overview
 GML(Generative Meta Language) is a programming language which focuses on automatic code generation.
 
-There are two parts in GML's source code. The first is an GML interpreter written in python, the second is a GML translator which is written in GML itself and generates golang code.
+There are two parts in GML's source code. The first is an GML interpreter written in python, the second is a GML generator which is written in GML itself and generates golang code.
 
-Currently, GML is still at a very early stage, the implementation is incomplete, especially the translator(with a very limited support for golang code generation). And there will be substantial changes in the features of the language.
+Currently, GML is still at a very early stage, the implementation is incomplete, especially the generator(with a very limited support for golang code generation). And there will be substantial changes in the features of the language.
 
 #### Quick Start
 ```
 mkdir build
 cd build
 cmake ..
-# "make runtest" will run the interpreter and evaluate the code of gml translator with simple.gml as the input
+# "make runtest" will run the interpreter and evaluate the code of gml generator with simple.gml as the input
 make runtest
 # add current working directory to GOPATH
 source ../tools/gopath.env
