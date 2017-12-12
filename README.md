@@ -24,7 +24,7 @@ go build -o simple
 #### Dependencies
 cmake, make, Python, ply(lexer/parser), godoc(extract information from golang's core library)
 
-Test Environment:
+Test Environment:<br>
 Mac OS X 10.12<br>
 Python 2.7<br>
 ply 3.10<br>
